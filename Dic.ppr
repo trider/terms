@@ -1,0 +1,39 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.LogType=0
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+Dic
+	+php
+		NDSCorpDicWikiList.php
+	+html
+		index.html
+	+js
+		dic.js
+[Open project files]
+0=index.html
+1=dic.js
+2=NDSCorpDicWikiList.php
+3=..\..\..\Users\jgold\AppData\Local\Temp\Rar$DI00.528\demo.js
+[Selected Project Files]
+Main=
+Selected=index.html
+[index.html]
+TopLine=22
+Caret=73,46
+[dic.js]
+TopLine=1
+Caret=43,29
+[NDSCorpDicWikiList.php]
+TopLine=13
+Caret=71,37
+[..\..\..\Users\jgold\AppData\Local\Temp\Rar$DI00.528\demo.js]
+TopLine=285
+Caret=23,78

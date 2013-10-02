@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Terms</title>
+  <script src="js/jquery.js"></script>
+  <script src="jquery.csv-0.7.js"></script>
+  <script src="dic.js"></script>
+  <script src="jquery.multi-select.js"></script>
+  <!-- Le styles -->
+  
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  
+  <style>
+  p { 
+      font-size: small;
+   }
+   
+	</style>
+  
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">      
+</head>
+
+<body style="background-color: grey;">
+
+  <div class="container-fluid" >
+    <div class="row-fluid" style="background-color: grey;">
+      <div class="span3" style="height: 1000px">
+        <br>
+          <label><b>Term</b></label>
+          <textarea class="span3" rows="1" id='term'></textarea>
+          <label><b>Acronym</b></label>
+          <textarea class="span3" rows="1" id='acronym'></textarea>
+          <label><b>Definition</b></label>
+          <textarea class="span3" rows="2" id='definition'></textarea>
+          <label><b>Related Terms</b></label>
+          <select class="span3" id='relatedterms'></select>
+          <select multiple="multiple" id='relateditemslst' class="span3"></select>  
+          <button id="btnAdd">Add</button>
+          <button id="btnRemove">Remove</button>
+          <label></label>
+          <label><b>Categories</b></label>
+          <select class="span3" id='categories'></select>
+          <select multiple="multiple" id='relateditemslst' class="span3"></select>  
+          <button id="btnAdd">Add</button>
+          <button id="btnRemove">Remove</button>
+          <label></label>    
+          <label><b>Template</b></label>
+          <select class="span3" id="template" ></select>
+          <br>
+          <button class="btn btn-success" id="btnUpload">Upload</button>
+          <br>
+          <label><b>Log</b></label>
+          <!--<textarea class="span3" rows="1" id=contents></textarea>-->      
+      </div>
+      <div class="span9" style="height: 100%;background-color: grey;">
+        <br>
+        <div id=txt style="height: 100%;background-color: white;"></div>
+      </div>
+  </div>
+</div>
+  
+
+   
+  <!-- Le javascript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/bootstrap-transition.js"></script>
+  <script src="js/bootstrap-alert.js"></script>
+  <script src="js/bootstrap-modal.js"></script>
+  <script src="js/bootstrap-dropdown.js"></script>
+  <script src="js/bootstrap-scrollspy.js"></script>
+  <script src="js/bootstrap-tab.js"></script>
+  <script src="js/bootstrap-tooltip.js"></script>
+  <script src="js/bootstrap-popover.js"></script>
+  <script src="js/bootstrap-button.js"></script>
+  <script src="js/bootstrap-collapse.js"></script>
+  <script src="js/bootstrap-carousel.js"></script>
+  <script src="js/bootstrap-typeahead.js"></script>
+  
+</body>
+</html>
